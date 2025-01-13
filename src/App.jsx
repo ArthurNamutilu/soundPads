@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Pad from "./Pad";
 import padsData from "./pads";
+import Pad from "./Pad";
 
 function App() {
   const [pads, setPads] = useState(padsData);
